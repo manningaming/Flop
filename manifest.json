@@ -1,5 +1,4 @@
-
-    {
+{
     "theme_color": "#f69435",
     "background_color": "#f69435",
     "display": "standalone",
@@ -29,51 +28,51 @@
             "sizes": "512x512",
             "type": "image/png"
         }
-    ]
-  "game": {
-    "title": "Flappy Bird",
-    "version": "1.0.0",
-    "developer": "YourGameStudio"
-  },
-  "settings": {
-    "difficulty": "normal",
-    "sound": {
-      "musicVolume": 0.5,
-      "effectsVolume": 0.7
+    ],
+    "game": {
+        "title": "Flappy Bird",
+        "version": "1.0.0",
+        "developer": "YourGameStudio"
     },
-    "graphics": {
-      "resolution": {
-        "width": 800,
-        "height": 600
-      },
-      "fullscreen": false
+    "settings": {
+        "difficulty": "normal",
+        "sound": {
+            "musicVolume": 0.5,
+            "effectsVolume": 0.7
+        },
+        "graphics": {
+            "resolution": {
+                "width": 800,
+                "height": 600
+            },
+            "fullscreen": false
+        }
+    },
+    "player": {
+        "initialLives": 3,
+        "highScore": 0,
+        "controls": {
+            "jump": "Space",
+            "pause": "KeyP"
+        }
+    },
+    "levels": [
+        {
+            "id": 1,
+            "name": "Level 1",
+            "background": "day",
+            "pipes": {
+                "speed": 2,
+                "gapHeight": 150
+            }
+        }
+    ],
+    "assets": {
+        "images": {
+            "bird": "/img/bird.png",
+            "pipe": "/img/pipe.png",
+            "backgroundDay": "/img/background_day.png",
+            "backgroundNight": "/img/background_night.png"
+        }
     }
-  },
-  "player": {
-    "initialLives": 3,
-    "highScore": 0,
-    "controls": {
-      "jump": "Space",
-      "pause": "KeyP"
-    }
-  },
-  "levels": [
-    {
-      "id": 1,
-      "name": "Level 1",
-      "background": "day",
-      "pipes": {
-        "speed": 2,
-        "gapHeight": 150
-      }
-    }
-  ],
-  "assets": {
-    "images": {
-      "bird": "/img/bird.png",
-      "pipe": "/img/pipe.png",
-      "backgroundDay": "/img/background_day.png",
-      "backgroundNight": "/img/background_night.png"
-    }
-  }
 }
